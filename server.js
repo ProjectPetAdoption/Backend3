@@ -25,6 +25,7 @@ app.use('/api', require('./Routes/CreateRehome')); // Use CreateRehome.js route
 
 app.use('/api', require('./Routes/CreatePetshelterform'));
 
+app.use('/api', require('./Routes/CreateSignup'));
 
 
 app.listen(port, () => {
